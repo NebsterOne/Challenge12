@@ -1,10 +1,22 @@
 # 12 SQL: Employee Tracker
 
+## Table of Contents
+
+- [Your task](#Your-Task)
+- [User Story ](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Video Presentation](#video-presentation)
+- [Database schema image](#database-schema-image)
+- [Installation Instructions](#Installation)
+- [Credits](#credits)
+- [Questions](#questions)
+- [License](#license)
+
 ## Your Task
 
-Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. This assignment builds a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+A walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met is added. You’ll need to submit a link to the video and add it to the README of your project.
 
 ## User Story
 
@@ -36,46 +48,39 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
 
-## Mock-Up
+## Video Presentation
 
-## Database schem image
+```md
+[Video 1 - VS Code](https://drive.google.com/file/d/1Ig3Fh_mo68vp6ie_XQFhmwqwzNma6CxH/view?usp=sharing)
+[Video 2 - Walkthrought Video](https://drive.google.com/file/d/1JXqg5msfB5NTTKrk0DKO62EeRTa-eD-e/view?usp=sharing)
+```
 
-Design the database schema as shown in the following image:
+## Database schema image
+
+Database schema as shown in the following image:
 
 ![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/12-sql-homework-demo-01.png)
 
-## Tables
+## Installation Instructions
 
-As the image illustrates, your schema should contain the following three tables:
+```md
+npm i -- to install node,
+then npm i inquirer to install inquierer and the version
+then npm install console.table --save
+then mysql -u root -p
+then enter password
+then source db/schema.sql
+then source db/seed.sql
+then npm start (to start the program) and follow the instructions answers
+```
 
-- `department`
+## Contact
 
-  - `id`: `INT PRIMARY KEY`
+```md
+GitHub: https://github.com/NebsterOne
+```
 
-  - `name`: `VARCHAR(30)` to hold department name
+## License
 
-- `role`
-
-  - `id`: `INT PRIMARY KEY`
-
-  - `title`: `VARCHAR(30)` to hold role title
-
-  - `salary`: `DECIMAL` to hold role salary
-
-  - `department_id`: `INT` to hold reference to department role belongs to
-
-- `employee`
-
-  - `id`: `INT PRIMARY KEY`
-
-  - `first_name`: `VARCHAR(30)` to hold employee first name
-
-  - `last_name`: `VARCHAR(30)` to hold employee last name
-
-  - `role_id`: `INT` to hold reference to employee role
-
-  - `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
-
-## Bonus
-
-
+MIT License
+Copyright (c) 2023 Ned Zatezalo
