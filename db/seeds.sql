@@ -2,7 +2,7 @@ INSERT INTO department(name)
     VALUES  ("Architecture"),
             ("Developers"),
             ("Busines analysis"),
-            ("Database");
+            ("Database"),
             ("Security");
 
 INSERT INTO roles(title, salary, department_id)
@@ -12,13 +12,13 @@ INSERT INTO roles(title, salary, department_id)
             ("Full-stack developer", 75000, 2),
             ("Data analyst", 140000, 3),
             ("Business system analyst", 200000, 3),
-            ("SQL database administrator", 180000, 4);
+            ("SQL database administrator", 180000, 4),
             ("Data quality manager", 140000, 4),
             ("Security systems administrator", 140000, 5),
-            ("Cloud security specialist", 140000, 5),
+            ("Cloud security specialist", 140000, 5);
 
-INSERT INTO employees(first_name, last_name, role_id, manager_id)
-    VALUES  ("David" "Robinson", 1, NULL),
+INSERT INTO employee(first_name, last_name, role_id, manager_id)
+    VALUES  ("David", "Robinson", 1, NULL),
             ("Patrick", "Ewing", 2, 1),
             ("Larry", "Bird", 3, 1),
             ("Scottie", "Pippen", 5, 5),
@@ -27,5 +27,5 @@ INSERT INTO employees(first_name, last_name, role_id, manager_id)
             ("Karl", "Malone", 6, 5),
             ("John", "Stockton", 7, NULL),
             ("Chris", "Mullin", 8, NULL),
-            ("Charles", "Barkley", 9, 8),
-            ("Magic", "Johnson", 10, 8);
+            ("Charles", "Barkley", 9, 1),
+            ("Magic", "Johnson", 10, 1);
