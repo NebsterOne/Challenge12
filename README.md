@@ -8,8 +8,7 @@
 - [Video Presentation](#video-presentation)
 - [Database schema image](#database-schema-image)
 - [Installation Instructions](#Installation)
-- [Credits](#credits)
-- [Questions](#questions)
+- [Contact](#contact)
 - [License](#license)
 
 ## Your Task
