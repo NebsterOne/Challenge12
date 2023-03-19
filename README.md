@@ -51,7 +51,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ```md
 [Video 1 - VS Code](https://drive.google.com/file/d/1Ig3Fh_mo68vp6ie_XQFhmwqwzNma6CxH/view?usp=sharing)
-[Video 2 - Walkthrought Video](https://drive.google.com/file/d/1JXqg5msfB5NTTKrk0DKO62EeRTa-eD-e/view?usp=sharing)
+[Video 2 - Walkthrough Video](https://drive.google.com/file/d/1JXqg5msfB5NTTKrk0DKO62EeRTa-eD-e/view?usp=sharing)
 ```
 
 ## Database schema image
